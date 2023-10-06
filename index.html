@@ -5,16 +5,32 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nate-games | 301</title>
 </head>
 
 <body>
     <!-- Sadly. -->
-    <center>
-        <h3>301 | Moved Permanently</h3>
-        <p>The page has been moved to <a href="//nate-games.xyz" class="">nate-games.xyz</a></p>
-    </center>
+    <!-- https://stackoverflow.com/questions/1269589/css-center-block-but-align-contents-to-the-left -->
+    <!-- https://css-tricks.com/how-to-animate-the-details-element/ -->
+    <div class="center">
+        <div class="left-align">
+            <h3>301 | Moved Permanently</h3>
+            <p>The page has been moved to <a href="//nate-games.xyz" class="">nate-games.xyz</a><br>
+                Though, backup urls are still available.
+            <details>
+                <summary>Such as</summary>
+                <ul>
+                    <a href="//nates-cdn.pages.dev">nates-cdn.pages.dev</a><br>
+                    <a href="//nate-games.netlify.app">nate-games.netlify.app</a><br>
+                    <a href="//nate-games.com">nate-games.com</a><br><br>
+                    <p>View more on <a href="//github.com/nate-games/nate-games.xyz/wiki/URLs">the wiki.</a></p>
+                </ul>
+            </details>
+            </p>
+        </div>
+    </div>
 </body>
 
 </html>
