@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    font-family: 'Lato', 'Roboto', Arial, Helvetica, sans-serif;
+    user-select: none;
+    color: white;
+    background-image: linear-gradient(to right, #001c3a , #000);
+    text-align: left;
+}
+
+a {
+    color: #4287f5;
+    background-color: transparent;
+    padding-bottom: calc(1px * 2);
+    border: none;
+    position: relative;
+    transition: .2s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a::after {
+    display: block;
+    background-color: #4287f5;
+    width: 100%;
+    left: 0;
+    transform-origin: bottom center;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: .3s ease;
+    content: "";
+}
+
+a:hover::after {
+    transform: scaleX(1);
+}
