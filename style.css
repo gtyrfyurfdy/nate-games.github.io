@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
 
 html,
 body {
@@ -141,3 +142,26 @@ details>ul {
     font-size: 12px;
     color: #fff;
 }
+
+#font-awesome {
+    font-size: 10px;
+    /* Controls how large the icons show */
+}
+
+hr.dashed {
+    border-top: 2px dashed #333;
+}
+
+hr.dotted {
+    border-top: 2px dotted #333;
+}
+
+hr.solid {
+    border-top: 2px solid #333;
+}
+
+hr.rounded {
+    border-top: 2px solid #333;
+    border-radius: 5px;
+}
+/* Used for dividers */
