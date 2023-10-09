@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", "Lato", Arial, Helvetica, sans-serif;
   user-select: none;
   color: white;
-  background-image: linear-gradient(to right, #001c3a, #000);
+  background-image: linear-gradient(to top right, #001c3a, #000);
   font-size: 12.5px;
   letter-spacing: 0.25px;
 }
