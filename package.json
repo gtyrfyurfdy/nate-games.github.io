@@ -1,0 +1,15 @@
+{
+    "name": "nate-games",
+    "version": "0.1",
+    "description": "Website placeholder, this page has moved",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve -p 6942",
+        "build": "echo This is a static webiste"
+    },
+    "author": "nate-games",
+    "license": "MIT",
+    "devDependencies": {
+        "serve": "^11.2.0"
+    }
+}
